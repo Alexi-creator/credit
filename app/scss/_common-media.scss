@@ -1,0 +1,186 @@
+
+@media (max-width: 1220px) {
+  // main
+  .item-select {
+    max-width: 235px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  // header
+  .header__inner {
+    height: 135px;
+  }
+  .logo__name {
+    font-size: 18px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .logo__subtitle {
+    font-size: 10px;
+  }
+  .logo__img {
+    width: 50px;
+    height: 45px;
+  }
+  .header__applications-title {
+    font-size: 18px;
+  }
+  .header__applications-img {
+    img {
+      width: 80%;
+    }
+    span {
+      width: 20px;
+      height: 20px;
+      left: 22px;
+      top: -16px;
+    }
+  }
+  .back-btn {
+    font-size: 16px;
+  }
+
+  // main
+  .title {
+    font-size: 32px;
+  }
+  .select__items {
+    flex-direction: column;
+  }
+  .item-select {
+    max-width: none;
+    margin-bottom: 35px;
+  }
+  .btn-select {
+    margin-left: auto;
+  }
+  .item-bank__logo {
+    max-width: 150px;
+    max-height: 50px;
+  }
+  .btn-bank__application, .btn-bank__details {
+    padding: 7px 15px;
+    font-size: 16px;
+  }
+
+  // footer
+  .nav__list {
+    flex-direction: column;
+    li {
+      line-height: 28px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // header
+  .header__inner {
+    height: 115px;
+  }
+  .back-btn {
+    display: none;
+  }
+
+  // main
+  .item-bank {
+    flex-direction: column;
+    align-items: center;
+    & > div:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  .title {
+    font-size: 26px;
+  }
+  .select__item {
+    height: 78px;
+    margin-bottom: 45px;
+  }
+  .item-select__input {
+    label {
+      bottom: -36px;
+    }
+    input {
+      font-size: 20px;
+    }
+  }
+  .btn-select {
+    margin-bottom: 0;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 20px 60px;
+  }
+  
+  // footer
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  .app-mobile {
+    margin: 0 auto;  
+  }
+  .footer__social {
+    margin-right: 15px;
+  }
+  .footer__social-list {
+    li:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  // header
+  .logo__title {
+    display: none;
+  }
+  .grid {
+    padding: 0 15px;
+  }
+  .header {
+    margin-bottom: 40px;
+  }
+  .header__inner {
+    height: 90px;
+  }
+
+  // main
+  .select__item {
+    height: 70px;
+  }
+  .select-product {
+    margin-left: 0;
+  }
+  .item-select {
+    padding: 8px 16px;
+  }
+  .btn {
+    padding: 14px 44px;
+    font-size: 18px;
+  }
+
+  // footer
+  .footer__inner {
+    flex-direction: column;
+  }
+  .footer__social {
+    margin-right: 0px;
+  }
+  .footer__social-list {
+    margin-top: 30px;
+  }
+  .nav__list {
+    align-items: center;
+    li {
+      margin-right: 0;
+    }
+  }
+  .app-mobile {
+    margin-top: 30px;
+  }
+}
