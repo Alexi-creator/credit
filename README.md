@@ -1,3 +1,3 @@
 # credit
 
-http://credit.alexandrapavlov.ru/
+https://alexi-creator.github.io/credit/
